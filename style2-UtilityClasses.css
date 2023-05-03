@@ -1,7 +1,4 @@
 
-
-
-
 .sr-only {
   position: absolute; 
   width: 1px;
@@ -14,24 +11,22 @@
   border: 0;
 }
 
-
-/* colors */
-
-
-
-/* typography */
-
-
-/* line height */
-
- {
-    line-height: ;
+.text-dark {
+  color: var(--clr-dark);
+  font-size: var(--fs-title);
+  line-height: 4rem;
 }
 
+.text-question-gray {
+  color: var(--clr-question-gray);
+  font-size: var(--fs-question);
+  line-height: 1.6rem;
+}
 
-/* letter spacing */
- {
-    letter-spacing: ;
+.text-answer-gray {
+  color: var(--clr-answer-gray);
+  font-size: var(--fs-answer);
+  line-height: 1.8rem;
 }
 
 

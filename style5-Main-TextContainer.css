@@ -1,0 +1,23 @@
+.text-container {
+  background: #fff;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+  border-radius: 23px;
+ 
+  position: absolute;
+  top: 14.8rem;
+}
+
+.text-container-wrapper {
+  padding-top: 13.2rem; 
+  margin-inline: 2.4rem;
+  width: 100%;
+}
+
+/* ------------------------------ 550px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (min-width: 550px) {
+  .text-container {
+    top: 21rem;
+  }
+
+}

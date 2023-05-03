@@ -1,0 +1,36 @@
+
+.img-container {
+  /* width: 100%; when off, the img and the TextContainer maintain the same top position*/
+  position: absolute;
+  top: 4rem;
+  z-index: 1;
+}
+
+.illustration-box {
+  display: none;
+}
+
+.illustration-woman {
+  width: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.illustration-woman img {
+  width: 78%;
+  margin-inline: auto;
+}
+
+/* ------------------------------ 550px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (min-width: 550px) {
+  .illustration-box {
+    display: block;
+    position: absolute;
+    top: 10rem;
+    left: 4rem;
+    width: 16rem;
+  }
+
+}
