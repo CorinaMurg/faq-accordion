@@ -88,8 +88,8 @@ h1 {
     box-shadow: none;
     padding-top: 10rem;
     padding-left: 3rem;
-    position: absolute;
-    left: 50%;
+    /* position: absolute;
+    left: 50%; */
   }
 
   .question-container {
