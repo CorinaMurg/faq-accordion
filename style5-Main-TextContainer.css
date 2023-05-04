@@ -79,14 +79,17 @@ h1 {
   body {
     padding-inline: 5rem;
   }
-  
+
   .text-container {
+    width: 50%;
     height: 100%;
     background: transparent;
     border-radius: 0;
     box-shadow: none;
     padding-top: 10rem;
-    /* margin-left: 5rem; */
+    padding-left: 3rem;
+    position: absolute;
+    left: 50%;
   }
 
   .question-container {
