@@ -3,9 +3,7 @@
   background: #fff;
   box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
   border-radius: 23px;
- 
-  position: absolute;
-  top: 14.8rem;
+  /* align-self: top; */
   padding-top: 13.2rem; 
   padding-inline: 2.4rem;
 }
@@ -13,10 +11,6 @@
 h1 {
   text-align: center;
   margin-bottom: 3rem;
-}
-
-.question-container {
-  height: fit-content;
 }
 
 .question-container:last-child {
@@ -60,7 +54,6 @@ h1 {
   .text-container {
     padding-inline: 4.2rem;
   }
-
 }
 
 
@@ -68,10 +61,8 @@ h1 {
 /* -------------------------------------------------------------------- */
 @media (min-width: 550px) {
   .text-container {
-    top: 21rem;
     padding-top: 18rem;
   }
-
 }
 
 /* ------------------------------ 600px ------------------------------- */

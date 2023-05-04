@@ -1,24 +1,22 @@
 footer { 
-    position: absolute;
-    bottom: 0;
-    /* height: 6rem; */
-    width: 100%;
-    margin-top: auto;
+
+    grid-row: 2 / 3;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 0.5px solid hsl( var(--) / .25);
-    background: hsl( var(--) / 0.95);
+    /* border-top: 0.5px solid hsl( var(--) / .25); */
+    /* background: pink; */
 }
 
 .attribution { 
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
-    color: hsl(228, 45%, 44%);
+    color: white;
     font-size: 1.1rem;
+    margin-bottom: 1rem;
 }
 
 .attribution p {
@@ -31,16 +29,13 @@ footer {
 }
 
 .attribution a:hover { 
-    color: lightseagreen; 
+    color: black; 
 }
 
 
 /* ------------------------------ 450px ------------------------------- */
 /* -------------------------------------------------------------------- */
 @media (min-width: 450px) {
-    body {
-        grid-template-rows: 1fr 4rem;
-    }
 
     footer { 
         height: 4rem;
