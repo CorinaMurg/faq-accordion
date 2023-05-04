@@ -19,9 +19,11 @@ body {
     background-size: cover;
     min-height: 100vh;
     position: relative;
-    display: grid;
-    grid-template-rows: auto min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 14.8rem;
+    
 }
 
 html {
@@ -64,6 +66,14 @@ img {
       padding-top: 21rem;
     }
 }
+
+/* ------------------------------ 1000px ------------------------------- */
+/* -------------------------------------------------------------------- */
+/* @media (min-width: 1000px) {
+    body {
+      align-items: center;
+    }
+} */
 
 
 /********************************************** 1440px *******************************/
