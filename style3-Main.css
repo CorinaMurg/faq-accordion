@@ -48,9 +48,10 @@ main {
     background: white;
     box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
     border-radius: 23px;
-    align-items: auto;
+    /* align-items: auto;
     align-self: center;
-    justify-self: center;
+    justify-self: center; */
+    position: relative;
   }
 
 }
