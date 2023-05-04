@@ -14,18 +14,21 @@
 .text-dark {
   color: var(--clr-dark);
   font-size: var(--fs-title);
+  font-weight: 700;
   line-height: 4rem;
 }
 
 .text-question-gray {
   color: var(--clr-question-gray);
   font-size: var(--fs-question);
+  font-weight: 400;
   line-height: 1.6rem;
 }
 
 .text-answer-gray {
   color: var(--clr-answer-gray);
   font-size: var(--fs-answer);
+  font-weight: 400;
   line-height: 1.8rem;
 }
 

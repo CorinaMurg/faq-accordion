@@ -4,6 +4,7 @@
     --clr-dark: hsla(238, 29%, 17%, 1);
     --clr-question-gray: hsla(237, 12%, 33%, 1);
     --clr-answer-gray: hsla(240, 6%, 50%, 1);
+    --clr-border-gray: #E8E8EA;
     --clr-orange: hsla(14, 88%, 65%, 1);
 
     /* font-sizes */
@@ -27,6 +28,7 @@ body {
 html {
     font-size: 62.5%;
     font-family: 'Kumbh Sans';
+    box-sizing: border-box;
 }
 
 
@@ -50,32 +52,11 @@ img {
 
 
 /************************************ 500px ***********************************/
-@media (min-width: 500px) {
+@media (min-width: 500px) { 
+    :root {
+        --fs-question: 1.4rem;
+    }
    
-}
-
-
-/************************************ 560px ***********************************/
-@media (min-width: 560px) {
-    :root {
-        
-    }
-}
-
-
-/************************************ 950px ************************************/
-@media (min-width: 950px) {
-    :root {
-       
-    }
-}
-
-
-/********************************************** 1250px *******************************/
-@media (min-width: 1250px) {
-    :root {
-        
-    }
 }
 
 
