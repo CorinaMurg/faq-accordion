@@ -73,6 +73,7 @@ img {
       align-items: center;
       grid-template-rows: 12.9rem auto min-content;
       padding-top: 0;
+      height: 100%;
     }
 }
 

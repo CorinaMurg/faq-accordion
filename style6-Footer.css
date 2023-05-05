@@ -36,7 +36,6 @@ footer {
 
     footer { 
         grid-row: 3 / 4;
-        height: 4rem;
         margin-top: 4rem;
     }
 
