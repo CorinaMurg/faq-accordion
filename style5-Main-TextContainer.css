@@ -82,14 +82,11 @@ h1 {
 
   .text-container {
     width: 50%;
-    /* height: 100%; */
     background: transparent;
     border-radius: 0;
     box-shadow: none;
     padding-top: 10rem;
     padding-left: 3rem;
-    /* position: absolute;
-    left: 50%; */
   }
 
   .question-container {
@@ -100,4 +97,24 @@ h1 {
     text-align: left;
   }
 
+}
+
+/* ------------------------------ 1300px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (min-width: 1300px) {
+  .question-container {
+    width: 33rem;
+  }
+}
+
+/* ------------------------------ 1400px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (min-width: 1400px) {
+  .text-container {
+    padding-left: 5rem;
+  }
+  
+  .question-container {
+    width: 35rem;
+  }
 }

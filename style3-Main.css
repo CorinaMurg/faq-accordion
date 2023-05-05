@@ -44,25 +44,14 @@ main {
 @media (min-width: 1000px) {
   main {
     width: 80%;
+    grid-row: 2 / 3;
     flex-direction: row;
     background: white;
     box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
     border-radius: 23px;
-    /* align-items: auto; */
-    align-self: center;
+    align-self: top;
     justify-self: center;
     position: relative;
   }
-
 }
-
-/* ------------------------------ 1100px ------------------------------- */
-/* -------------------------------------------------------------------- */
-@media (min-width: 1100px) {
-  main {
-    width: 64%;
-  }
-
-}
-
 

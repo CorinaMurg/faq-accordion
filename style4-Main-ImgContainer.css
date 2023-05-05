@@ -50,7 +50,7 @@
   .illustration-woman {
     position: absolute;
     top: 10rem;
-    width: 57%;
+    width: 55%;
     height: auto;
     margin-left: -8rem;
     
@@ -63,9 +63,63 @@
 
   .illustration-box {
     position: absolute;
-    top: 10rem;
+    top: 21rem;
     left: -8rem;
     width: 16rem;
+  }
+}
+
+/* ------------------------------ 1200px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (min-width: 1200px) {
+  .illustration-woman {
+    top: 8rem;
+    width: 55%;
+    margin-left: -8rem;
+  }
+
+  .illustration-box {
+    top: 23rem;
+    left: -8rem;
+    width: 16rem;
+  }
+
+}
+
+/* ------------------------------ 1300px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (min-width: 1300px) {
+  main .img-container {
+    width: 45%;
+  }
+
+  .illustration-woman {
+    top: 7rem;
+    width: 53%;
+    margin-left: -8rem;
+  }
+
+  .illustration-box {
+    top: 23rem;
+    left: -10rem;
+    width: 22rem;
+  }
+
+}
+
+/* ------------------------------ 1400px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (min-width: 1400px) {
+  .illustration-woman {
+    top: 5rem;
+    width: 51%;
+    margin-left: -7rem;
+  }
+
+  .illustration-box {
+    top: 21rem;
+    left: -10rem;
+    width: 22rem;
   }
 
 }
