@@ -111,10 +111,10 @@ h1 {
 /* -------------------------------------------------------------------- */
 @media (min-width: 1400px) {
   .text-container {
-    padding-left: 5rem;
+    padding-left: 7rem;
   }
   
   .question-container {
-    width: 35rem;
+    width: 36rem;
   }
 }

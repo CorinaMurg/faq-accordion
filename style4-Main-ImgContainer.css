@@ -38,10 +38,11 @@
 @media (min-width: 1000px) {
   main .img-container {
     width: 50%;
-    height: 51rem;
+    height: 56rem;
     background: url(images/bg-pattern-desktop.svg);
-    background-position: right calc(100% + 180px);
-    background-size: auto 200%;
+    /* background-position: right center; */
+    background-position: right calc(100% + 80px);
+    background-size: auto 150%;
     margin-right: 4rem;
     position: static; 
     border-radius: 20px;
@@ -89,14 +90,14 @@
 /* ------------------------------ 1300px ------------------------------- */
 /* -------------------------------------------------------------------- */
 @media (min-width: 1300px) {
-  main .img-container {
+  /* main .img-container {
     width: 45%;
-  }
+  } */
 
   .illustration-woman {
     top: 7rem;
     width: 53%;
-    margin-left: -8rem;
+    margin-left: -6rem;
   }
 
   .illustration-box {
@@ -110,10 +111,14 @@
 /* ------------------------------ 1400px ------------------------------- */
 /* -------------------------------------------------------------------- */
 @media (min-width: 1400px) {
+  main .img-container {
+    width: 40%;
+  }
+
   .illustration-woman {
     top: 5rem;
     width: 51%;
-    margin-left: -7rem;
+    margin-left: -12rem;
   }
 
   .illustration-box {
