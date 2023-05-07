@@ -21,6 +21,15 @@
   margin-inline: auto;
 }
 
+.bg-pattern {
+  width: 24rem;
+  height: 30rem;
+  position: absolute;
+  top: 5rem;
+  background: url(images/bg-pattern-mobile.svg) center center no-repeat;
+  background-size: contain;
+}
+
 /* ------------------------------ 550px ------------------------------- */
 /* -------------------------------------------------------------------- */
 @media (min-width: 550px) {
@@ -30,6 +39,12 @@
     top: 10rem;
     left: 4rem;
     width: 16rem;
+  }
+
+  .bg-pattern {
+    top: 8rem;
+    width: 37.5rem;
+    height: 40rem;
   }
 }
 
@@ -44,16 +59,18 @@
     background-position: right calc(100% + 80px);
     background-size: auto 150%;
     margin-right: 4rem;
-    position: static; 
+    position: relative; 
     border-radius: 20px;
   }
 
   .illustration-woman {
     position: absolute;
-    top: 10rem;
-    width: 55%;
+    /* top: 10rem; */
+    bottom: 14rem;
+    right: 0;
+    width: 120%;
     height: auto;
-    margin-left: -8rem;
+    /* margin-left: -8rem; */
     
   }
 
@@ -68,21 +85,23 @@
     left: -8rem;
     width: 16rem;
   }
+
+  .bg-pattern {
+    display: none;
+  }
 }
 
 /* ------------------------------ 1200px ------------------------------- */
 /* -------------------------------------------------------------------- */
 @media (min-width: 1200px) {
   .illustration-woman {
-    top: 8rem;
-    width: 55%;
-    margin-left: -8rem;
+    bottom: 12rem;
   }
 
   .illustration-box {
-    top: 23rem;
-    left: -8rem;
-    width: 16rem;
+    top: 21rem;
+    left: -9.5rem;
+    width: 18rem;
   }
 
 }
@@ -95,9 +114,7 @@
   } */
 
   .illustration-woman {
-    top: 7rem;
-    width: 53%;
-    margin-left: -6rem;
+    bottom: 8rem;
   }
 
   .illustration-box {
@@ -116,9 +133,7 @@
   }
 
   .illustration-woman {
-    top: 5rem;
-    width: 51%;
-    margin-left: -12rem;
+    bottom: 10rem;
   }
 
   .illustration-box {

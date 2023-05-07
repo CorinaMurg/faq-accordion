@@ -5,6 +5,7 @@
   border-radius: 23px;
   padding-top: 13.2rem; 
   padding-inline: 2.4rem;
+  
 }
 
 h1 {
@@ -58,6 +59,7 @@ h1 {
 @media (min-width: 500px) {
   .text-container {
     padding-inline: 4.2rem;
+    
   }
 }
 
@@ -66,7 +68,7 @@ h1 {
 /* -------------------------------------------------------------------- */
 @media (min-width: 550px) {
   .text-container {
-    padding-top: 18rem;
+    padding-top: 20rem;
   }
 }
 
