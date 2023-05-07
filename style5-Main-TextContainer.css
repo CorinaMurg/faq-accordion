@@ -19,7 +19,7 @@ h1 {
 
 
 
-.question {
+.question label{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,9 +32,12 @@ h1 {
   height: 1rem;
 }
 
-.arrow:focus-visible {
-  outline: 2px solid blue;
+*:focus-visible {
+  outline: 3px solid rgb(33, 33, 33);
+  outline-offset: 4px;
+  outline-style: dashed;
 }
+
 
 .question:hover {
   color: var(--clr-orange);
@@ -59,7 +62,6 @@ h1 {
 @media (min-width: 500px) {
   .text-container {
     padding-inline: 4.2rem;
-    
   }
 }
 

@@ -51,32 +51,28 @@
 /* ------------------------------ 1000px ------------------------------- */
 /* -------------------------------------------------------------------- */
 @media (min-width: 1000px) {
-  main .img-container {
+  .img-container {
     width: 50%;
     height: 56rem;
     background: url(images/bg-pattern-desktop.svg);
-    /* background-position: right center; */
     background-position: right calc(100% + 80px);
     background-size: auto 150%;
     margin-right: 4rem;
     position: relative; 
-    border-radius: 20px;
+    border-radius: 20px;    
   }
 
   .illustration-woman {
     position: absolute;
-    /* top: 10rem; */
     bottom: 14rem;
     right: 0;
     width: 120%;
     height: auto;
-    /* margin-left: -8rem; */
-    
   }
 
   .illustration-woman img {
     width: 100%;
-    overflow: hidden;
+     overflow: hidden;
   }
 
   .illustration-box {
