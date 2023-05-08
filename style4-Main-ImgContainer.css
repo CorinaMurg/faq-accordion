@@ -54,9 +54,10 @@
   .img-container {
     width: 50%;
     height: 56rem;
-    background: url(images/bg-pattern-desktop.svg);
-    background-position: right calc(100% + 80px);
-    background-size: auto 150%;
+    top: 0;
+    background: url(images/bg-pattern-desktop.svg) right -35rem no-repeat;
+    /* background-position: right calc(100% + 80px); */
+    background-size: auto 200%;
     margin-right: 4rem;
     position: relative; 
     border-radius: 20px;    
@@ -64,7 +65,7 @@
 
   .illustration-woman {
     position: absolute;
-    bottom: 14rem;
+    bottom: 10rem;
     right: 0;
     width: 120%;
     height: auto;
@@ -72,13 +73,13 @@
 
   .illustration-woman img {
     width: 100%;
-     overflow: hidden;
+    overflow: hidden;
   }
 
   .illustration-box {
     position: absolute;
-    top: 21rem;
-    left: -8rem;
+    top: 24rem;
+    left: -10rem;
     width: 16rem;
   }
 
@@ -91,11 +92,10 @@
 /* -------------------------------------------------------------------- */
 @media (min-width: 1200px) {
   .illustration-woman {
-    bottom: 12rem;
+    bottom: 8rem;
   }
 
   .illustration-box {
-    top: 21rem;
     left: -9.5rem;
     width: 18rem;
   }
@@ -129,11 +129,11 @@
   }
 
   .illustration-woman {
-    bottom: 10rem;
+    bottom: 8rem;
   }
 
   .illustration-box {
-    top: 21rem;
+    top: 24rem;
     left: -10rem;
     width: 22rem;
   }
