@@ -17,7 +17,7 @@ h1 {
   margin-bottom: 5.2rem;
 }
 
-.question label{
+.question label {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +35,6 @@ h1 {
   outline-offset: 4px;
   outline-style: dashed;
 }
-
 
 .question:hover {
   color: var(--clr-orange);
