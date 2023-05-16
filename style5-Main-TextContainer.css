@@ -14,22 +14,35 @@ h1 {
   margin-bottom: 3rem;
 }
 
+.question-container {
+  border-bottom: 2px solid var(--clr-border-gray);
+  padding-bottom: 1.5rem;
+  padding-top: 2.5rem;
+}
 .question-container:last-child {
   margin-bottom: 5.2rem;
 }
 
-.answer {
+.question::marker {
+  content: "";
+}
+
+summary {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid var(--clr-border-gray);
-  padding-bottom: 1rem;
   cursor: pointer;
 }
 
 .arrow {
   width: 1.5rem;
   height: 1rem;
+  display: inline;
+  margin-left: 1rem;
+}
+
+details > p {
+  width: 92%;
 }
 
 *:focus-visible {
@@ -42,23 +55,23 @@ h1 {
   color: var(--clr-orange);
 }
 
-.checkbox:checked ~ .question {
+.question-container[open] .question{
   font-weight: 700;
   color: var(--clr-dark);
 }
 
-.checkbox:checked ~ .question .arrow {
+.question-container[open] .arrow {
   transform: rotate(180deg);
 }
 
-.checkbox:checked ~ .answer {
-  display: block;
-  width: 90%;
+/* ------------------------------ max350pxpx ------------------------------- */
+@media (max-width: 350px) {
+  .text-container {
+    padding-inline: 2rem;
+  }
 }
 
-
 /* ------------------------------ 500px ------------------------------- */
-/* -------------------------------------------------------------------- */
 @media (min-width: 500px) {
   .text-container {
     padding-inline: 4.2rem;
@@ -67,7 +80,6 @@ h1 {
 
 
 /* ------------------------------ 550px ------------------------------- */
-/* -------------------------------------------------------------------- */
 @media (min-width: 550px) {
   .text-container {
     padding-top: 20rem;

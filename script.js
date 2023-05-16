@@ -1,14 +1,11 @@
-const checkboxes = document.querySelectorAll(".checkbox");
+const questions = document.querySelectorAll(".question");
 
-checkboxes.forEach((checkbox) => {
-  checkbox.addEventListener("click", (e) => {
-    if (e.target.checked) {
-      checkboxes.forEach((ele) => {
-        if (ele !== e.target) {
-          ele.checked = false;
-        }
-      });
-    }
+questions.forEach((question) => {
+  question.addEventListener("click", () => {
+    questions.forEach((q) => {
+      if (q !== question) {
+        q.parentElement.open = false;
+      }
+    });
   });
 });
-
