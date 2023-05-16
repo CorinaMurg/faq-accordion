@@ -8,10 +8,6 @@
   
 }
 
-.illustration-box {
-  display: none;
-}
-
 .illustration-woman {
   width: 100%;
 }
@@ -33,14 +29,6 @@
 /* ------------------------------ 550px ------------------------------- */
 /* -------------------------------------------------------------------- */
 @media (min-width: 550px) {
-  .illustration-box {
-    display: block;
-    position: absolute;
-    top: 10rem;
-    left: 4rem;
-    width: 16rem;
-  }
-
   .bg-pattern {
     top: 8rem;
     width: 37.5rem;
@@ -51,21 +39,29 @@
 /* ------------------------------ 1000px ------------------------------- */
 /* -------------------------------------------------------------------- */
 @media (min-width: 1000px) {
+  main::before {
+    position: absolute;
+    content: url("images/illustration-box-desktop.svg");
+    left: -95px;
+    top: 245px;
+    z-index: 10;
+  }
+
   .img-container {
     width: 50%;
     height: 56rem;
     top: 0;
     background: url(images/bg-pattern-desktop.svg) right -35rem no-repeat;
-    /* background-position: right calc(100% + 80px); */
     background-size: auto 200%;
     margin-right: 4rem;
     position: relative; 
-    border-radius: 20px;    
+    border-radius: 20px;  
+    overflow: hidden;  
   }
 
   .illustration-woman {
     position: absolute;
-    bottom: 10rem;
+    bottom: 8rem;
     right: 0;
     width: 120%;
     height: auto;
@@ -76,66 +72,8 @@
     overflow: hidden;
   }
 
-  .illustration-box {
-    position: absolute;
-    top: 24rem;
-    left: -10rem;
-    width: 16rem;
-  }
-
   .bg-pattern {
     display: none;
   }
 }
 
-/* ------------------------------ 1200px ------------------------------- */
-/* -------------------------------------------------------------------- */
-@media (min-width: 1200px) {
-  .illustration-woman {
-    bottom: 8rem;
-  }
-
-  .illustration-box {
-    left: -9.5rem;
-    width: 18rem;
-  }
-
-}
-
-/* ------------------------------ 1300px ------------------------------- */
-/* -------------------------------------------------------------------- */
-@media (min-width: 1300px) {
-  /* main .img-container {
-    width: 45%;
-  } */
-
-  .illustration-woman {
-    bottom: 8rem;
-  }
-
-  .illustration-box {
-    top: 23rem;
-    left: -10rem;
-    width: 22rem;
-  }
-
-}
-
-/* ------------------------------ 1400px ------------------------------- */
-/* -------------------------------------------------------------------- */
-@media (min-width: 1400px) {
-  main .img-container {
-    width: 40%;
-  }
-
-  .illustration-woman {
-    bottom: 8rem;
-  }
-
-  .illustration-box {
-    top: 24rem;
-    left: -10rem;
-    width: 22rem;
-  }
-
-}

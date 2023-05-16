@@ -5,7 +5,8 @@
   border-radius: 23px;
   padding-top: 13.2rem; 
   padding-inline: 2.4rem;
-  
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -17,7 +18,7 @@ h1 {
   margin-bottom: 5.2rem;
 }
 
-.question label {
+.answer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,6 +55,7 @@ h1 {
   display: block;
   width: 90%;
 }
+
 
 /* ------------------------------ 500px ------------------------------- */
 /* -------------------------------------------------------------------- */
@@ -101,7 +103,7 @@ h1 {
   }
 
   .question-container {
-    width: 30rem;
+    width: 350px;
   }
 
   h1 {
@@ -110,22 +112,3 @@ h1 {
 
 }
 
-/* ------------------------------ 1300px ------------------------------- */
-/* -------------------------------------------------------------------- */
-@media (min-width: 1300px) {
-  .question-container {
-    width: 33rem;
-  }
-}
-
-/* ------------------------------ 1400px ------------------------------- */
-/* -------------------------------------------------------------------- */
-@media (min-width: 1400px) {
-  .text-container {
-    padding-left: 7rem;
-  }
-  
-  .question-container {
-    width: 36rem;
-  }
-}

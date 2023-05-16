@@ -1,17 +1,4 @@
 
-.sr-only {
-  position: absolute; 
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px; 
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
-
 main {
   width: 87%;
   grid-row: 1 / 2;
@@ -43,7 +30,7 @@ main {
 /* -------------------------------------------------------------------- */
 @media (min-width: 1000px) {
   main {
-    width: 70%;
+    width: 920px;
     grid-row: 2 / 3;
     flex-direction: row;
     align-items: normal;

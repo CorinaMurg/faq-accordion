@@ -28,94 +28,52 @@
             <img src="images/illustration-woman-online-desktop.svg" alt="woman using a computer">
           </picture>
         </div>
-        <div class="illustration-box">
-          <picture>
-            <source media="(max-width: 550px)" srcset="">
-            <img src="images/illustration-box-desktop.svg" alt="">
-          </picture>
-        </div>
       </div>
       <div class="bg-pattern">
       </div>
 
 
       <div class="text-container">
-        <div class="text-container-wrapper">
           <h1 class="heading text-dark" aria-label="frequently asked questions">FAQ</h1>
-
-          <div class="question-container">
-            <input type="checkbox" class="checkbox" id="click-1" hidden>
-            <div class="question text-question-gray" tabindex="0">
-              <label for="click-1">
-                <p >How many team members can I invite? </p>
-                <img src="./images/icon-arrow-down.svg" alt="" class="arrow" >
-              </label>
-              
-            </div>
-            <div class="answer text-answer-gray" hidden>
-              <p> You can invite up to 2 additional users on the Free plan. There is no limit on 
-                team members for the Premium plan.</p>
-            </div>
-          </div>
-        
-          <div class="question-container">
-            <input type="checkbox" class="checkbox" id="click-2" hidden>
-            <div class="question text-question-gray" tabindex="0">
-              
-              <label for="click-2">
-                <p >What is the maximum file upload size? </p>
-                <img src="./images/icon-arrow-down.svg" alt="" class="arrow" >
-              </label>
-            </div>
-            <div class="answer text-answer-gray" hidden>
-              <p> No more than 2GB. All files in your account must fit your allotted storage space.</p>
-            </div>
-          </div>
-        
-          <div class="question-container">
-            <input type="checkbox" class="checkbox" id="click-3" hidden>
-            <div class="question text-question-gray" tabindex="0">
-              
-              <label for="click-3">
-                <p >How do I reset my password?</p>
-                <img src="./images/icon-arrow-down.svg" alt="" class="arrow">
-              </label>
-            </div>
-            <div class="answer text-answer-gray" hidden>
-              <p>Click “Forgot password” from the login page or “Change password” from your profile page.
-                A reset link will be emailed to you.</p>
-            </div>
-          </div>
-        
-          <div class="question-container">
-            <input type="checkbox" class="checkbox" id="click-4" hidden>
-            <div class="question text-question-gray" tabindex="0">
-              
-              <label for="click-4">
-                <p>Can I cancel my subscription?</p>
-                <img src="./images/icon-arrow-down.svg" alt="" class="arrow">
-              </label> 
-            </div>
-            <div class="answer text-answer-gray" hidden>
-              <p> Yes! Send us a message and we'll process your request no questions asked.</p>
-            </div>
-          </div>
-        
-          <div class="question-container">
-            <input type="checkbox" class="checkbox" id="click-5" hidden>
-            <div class="question text-question-gray" tabindex="0">
-              
-              <label for="click-5">
-                <p >Do you provide additional support?</p>
-                <img src="./images/icon-arrow-down.svg" alt="" class="arrow">
-              </label>
-            </div>
-            <div class="answer text-answer-gray" hidden>
-              <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
-            </div>
-          </div>
-        </div>
-
+          <details class="question-container">
+            <summary class="question">
+              How many team members can I invite?
+            </summary>
+            <p class="answer">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </details>
+          <details class="question-container">
+            <summary class="question">
+              What is the maximum file upload size?
+            </summary>
+            <p class="answer">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </details>
+          <details class="question-container">
+            <summary class="question">How do I reset my password?</summary>
+            <p class="answer">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page.
+            </p>
+          </details>
+          <details class="question-container">
+            <summary class="question">Can I cancel my subscription?</summary>
+            <p class="answer">
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </p>
+          </details>
+          <details class="question-container">
+            <summary class="question">Do you provide additional support?</summary>
+            <p class="answer">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+          </details>
         
       </div>
     </main>
@@ -127,5 +85,6 @@
       </div>
     </footer>
 
+    <script scr="script.js"></script>
   </body>
 </html>
