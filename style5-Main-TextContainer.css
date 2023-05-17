@@ -27,6 +27,18 @@ h1 {
   content: "";
 }
 
+.question::before{
+  content: "";
+  position: absolute;
+  right: 6rem;
+  width: 2rem;
+  height: 2rem;
+  background-image: url("images/icon-arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
 summary {
   display: flex;
   justify-content: space-between;
