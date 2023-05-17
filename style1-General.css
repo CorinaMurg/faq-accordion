@@ -71,19 +71,10 @@ img {
 @media (min-width: 1000px) {
     body {
       align-items: center;
-      grid-template-rows: 13rem auto 13rem;
+      grid-template-rows: 10% auto 10%;
       padding-top: 0;
       height: 100%;
     }
 }
-
-
-/********************************************** 1440px *******************************/
-@media (min-width: 1440px) {
-    body {
-      max-width: 1440px;
-      margin-inline: auto;
-    }
-} 
 
 
