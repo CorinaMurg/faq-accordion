@@ -27,10 +27,14 @@ h1 {
   content: "";
 }
 
+.question {
+  position: relative;
+}
+
 .question::before{
   content: "";
   position: absolute;
-  right: 6rem;
+  right: 0;
   width: 2rem;
   height: 2rem;
   background-image: url("images/icon-arrow-down.svg");
