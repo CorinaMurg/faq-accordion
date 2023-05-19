@@ -17,7 +17,7 @@ h1 {
 .question-container {
   border-bottom: 2px solid var(--clr-border-gray);
   padding-bottom: 1.5rem;
-  padding-top: 2.5rem;
+  padding-top: 1.5rem;
 }
 .question-container:last-child {
   margin-bottom: 5.2rem;
@@ -69,6 +69,10 @@ details > p {
 
 .question:hover {
   color: var(--clr-orange);
+}
+
+.question-container[open] {
+  padding-bottom: 0;
 }
 
 .question-container[open] .question{
@@ -124,7 +128,7 @@ details > p {
     background: transparent;
     border-radius: 0;
     box-shadow: none;
-    padding-top: 9rem;
+    padding-top: 8rem;
     padding-left: 3rem;
     display: flex;
     align-items: self-start;
