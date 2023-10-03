@@ -1,40 +1,18 @@
-# Frontend Mentor - FAQ accordion card solution
+# FAQ accordion Card
 
-This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). 
 
 
-## Overview
 
 ### The challenge
-The challenge was to build out the FAQ accordion card and get it looking as close to the design as possible.
+The challenge was to build out the FAQ accordion card to mathc the figma design.
 
 Users should be able to:
-
 - View the optimal layout for the component depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Hide/Show the answer to a question when the question is clicked
 
-### Links
-
-- Solution URL: https://github.com/Cor-Ina/faq-accordion-card-main
-- Live Site URL: https://corina-murg-faq-accordion-card.netlify.app/
-
-## My process
-
 ### Built with
-
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
@@ -44,19 +22,17 @@ Users should be able to:
 
 ### What I learned
 
-Use HTML details element for accordion feature
+How to use HTML details element for accordion feature
 
 ### Useful resources
 
 - Book: "Learning Web Design" by Jennifer Niederest Robbins (Publisher: O'Reilly)- This is an amazing book which helped me understand working with background images.
 
+### Live site and Snapshot
 
-## Author
-
-- Website - https://github.com/Cor-Ina
-- Frontend Mentor - @Cor-Ina: https://www.frontendmentor.io/profile/Cor-Ina
-- LinkedIn - https://www.linkedin.com/in/corinamurg/
-- Twitter - https://twitter.com/corinamurg
+Live Site URL: https://corina-faq-accordion.netlify.app/
+<br>
+<br>
+![image](https://github.com/CorinaMurg/faq-accordion/assets/115652409/3cacd71d-e8c9-44ee-93b5-5e2c27e56cef)
 
 
-## Acknowledgments
