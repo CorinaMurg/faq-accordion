@@ -1,4 +1,4 @@
-# FAQ accordion Card
+# FAQ Accordion Card
 
 This is my solution to the [FAQ Accordion Card challenge by Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). 
 
