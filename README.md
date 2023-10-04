@@ -28,7 +28,7 @@ The following are some of the accessibility practices that I applied.
 <br>**Use of `<details>` and `<summary>` elements**:
 These semantic HTML elements are inherently accessible and can be opened or closed to reveal more content. When users click on the `<summary>`, the `<details>` will toggle its open/close state and this behavior is announced by screen readers as well.
 <br>
-<br>**Tabindex on answer aontent**:
+<br>**Tabindex on answer content**:
 By setting `tabindex="0"`, the content inside the `<p>` tags is focusable with the keyboard. This is helpful for keyboard users to navigate through the answers. Since `<p>` tags are not naturally focusable, adding a `tabindex` can be considered appropriate to draw attention to the content when a question is expanded.
 <br>
 <br>**JavaScript for Toggle Behavior**:
